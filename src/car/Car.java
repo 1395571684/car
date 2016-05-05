@@ -4,8 +4,9 @@ public class Car extends Moto {
 
 	private String type = "°ÂµÏ";// ±¦Âí¡¢±¼³Û¡¢°ÂµÏ
 
-	public Car(String MotoNo) {
+	public Car(String MotoNo,String type) {
 		super(MotoNo);
+		this.type=type;
 	}
 
 	@Override
